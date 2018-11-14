@@ -1,0 +1,19 @@
+print ("Proyecto Monardes")
+print ("Comenzando con Python")
+
+temperatura = int(input("Digite temperatura del agua:"))
+
+if temperatura == 100:
+   print("El agua esta hirviendo")
+elif temperatura < 100:
+   print("Debe esperar hasta que hierva")
+else:
+   print("Retirar el agua para evitar evaporacion completa")
+   
+# Crearemos una funcion nueva.
+def numero_par (dividendo, divisor):
+   if dividendo % 2 = 0:
+      print("El numero es par")
+   else:
+      print("El numero es impar")
+return numero_par
